@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold
+}
+#bg{
+  position: fixed; 
+  height: 99.4vh;
+  width: 100%; 
+  top: 0; 
+  left: 0;   
+  bottom: 0;
+  z-index: 0;
+}
+.T{
+  position: relative;
+  z-index: 1;
+  padding-top: 150px;
+  background-image: url("https://developer.apple.com/app-store/marketing/guidelines/images/thumbnail-iphone11_2x.png");
+  background-repeat: no-repeat;
+  background-size: 800px 500px;
+  background-position-y: 20px;
+  background-position-x: center;
+  height: 300px;
+}
